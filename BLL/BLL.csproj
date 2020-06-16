@@ -45,11 +45,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonMethods.cs" />
-    <Compile Include="MembersBLL.cs" />
+    <Compile Include="UsersBLL.cs" />
     <Compile Include="MarvelBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Cryptography\Cryptography.csproj">
+      <Project>{95A69B5A-51D1-4079-8A92-FE43B21BEC99}</Project>
+      <Name>Cryptography</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{5BED7DEB-D5BB-42AB-AF30-B268799A6785}</Project>
       <Name>DAL</Name>
@@ -57,6 +61,10 @@
     <ProjectReference Include="..\Logger\Logger.csproj">
       <Project>{40B42330-0DBF-4C09-B5BF-B24A406C0C2E}</Project>
       <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{A1B60053-87CE-485E-9CC8-7B7F4815BD7A}</Project>
+      <Name>Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,20 @@
+-------------------START-------------6/16/2020 3:58:29 PM
+ClassName : UsersBLL MethodName GetLogin
+Error Message: Could not find stored procedure 'proc_GetLogin'.
+Error Stack Trace:    at DAL.DAL.GetData(SqlCommand pObjCommand) in D:\Projects\NET Development\Marvel Comics Portal\DAL\DAL.cs:line 102
+   at BLL.MarvelBLL.GetData(SqlCommand pObjCommand) in D:\Projects\NET Development\Marvel Comics Portal\BLL\MarvelBLL.cs:line 48
+   at BLL.UsersBLL.GetLogin(MarvelBLL objMarvelBLL, APICredentialsBLL credentials) in D:\Projects\NET Development\Marvel Comics Portal\BLL\UsersBLL.cs:line 27
+-------------------END-------------6/16/2020 3:58:29 PM
+-------------------START-------------6/16/2020 3:58:29 PM
+ClassName : UserController MethodName GetMemberLogin
+Error Message: Error occured while Login : Could not find stored procedure 'proc_GetLogin'.
+Error Stack Trace:    at BLL.UsersBLL.GetLogin(MarvelBLL objMarvelBLL, APICredentialsBLL credentials) in D:\Projects\NET Development\Marvel Comics Portal\BLL\UsersBLL.cs:line 34
+   at Marvel_Comics_Web_API.Controllers.UserController.GetLogin(LoginRequestDTO request) in D:\Projects\NET Development\Marvel Comics Portal\Marvel Comics Web API\Controllers\UserController.cs:line 48
+-------------------END-------------6/16/2020 3:58:29 PM
+-------------------START-------------6/16/2020 4:41:29 PM
+ClassName : UserController MethodName GetMemberLogin
+Error Message: Column 'MemberName' does not belong to table .
+Error Stack Trace:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Marvel_Comics_Web_API.Controllers.UserController.GetLogin(LoginRequestDTO request) in D:\Projects\NET Development\Marvel Comics Portal\Marvel Comics Web API\Controllers\UserController.cs:line 57
+-------------------END-------------6/16/2020 4:41:29 PM

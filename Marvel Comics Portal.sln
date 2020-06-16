@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marvel Comics Portal", "Marvel Comics Portal\Marvel Comics Portal.csproj", "{8C798809-FB38-4757-B43D-6B7D21258A32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marvel Comics Web API", "Marvel Comics Web API\Marvel Comics Web API.csproj", "{D9E00BCA-9528-4335-9136-97C428DE1360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{3BC19105-9898-4F33-8A42-DEA85719A2BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5BED7DEB-D5BB-42AB-AF30-B268799A6785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{A1B60053-87CE-485E-9CC8-7B7F4815BD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{40B42330-0DBF-4C09-B5BF-B24A406C0C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptography", "Cryptography\Cryptography.csproj", "{95A69B5A-51D1-4079-8A92-FE43B21BEC99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{8C798809-FB38-4757-B43D-6B7D21258A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C798809-FB38-4757-B43D-6B7D21258A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C798809-FB38-4757-B43D-6B7D21258A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E00BCA-9528-4335-9136-97C428DE1360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E00BCA-9528-4335-9136-97C428DE1360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E00BCA-9528-4335-9136-97C428DE1360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E00BCA-9528-4335-9136-97C428DE1360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC19105-9898-4F33-8A42-DEA85719A2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC19105-9898-4F33-8A42-DEA85719A2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC19105-9898-4F33-8A42-DEA85719A2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC19105-9898-4F33-8A42-DEA85719A2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BED7DEB-D5BB-42AB-AF30-B268799A6785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BED7DEB-D5BB-42AB-AF30-B268799A6785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BED7DEB-D5BB-42AB-AF30-B268799A6785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BED7DEB-D5BB-42AB-AF30-B268799A6785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B60053-87CE-485E-9CC8-7B7F4815BD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B60053-87CE-485E-9CC8-7B7F4815BD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B60053-87CE-485E-9CC8-7B7F4815BD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B60053-87CE-485E-9CC8-7B7F4815BD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B42330-0DBF-4C09-B5BF-B24A406C0C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B42330-0DBF-4C09-B5BF-B24A406C0C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B42330-0DBF-4C09-B5BF-B24A406C0C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B42330-0DBF-4C09-B5BF-B24A406C0C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A69B5A-51D1-4079-8A92-FE43B21BEC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A69B5A-51D1-4079-8A92-FE43B21BEC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A69B5A-51D1-4079-8A92-FE43B21BEC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A69B5A-51D1-4079-8A92-FE43B21BEC99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,5 +12,6 @@ namespace Utilities
         public const string LogDir = "LogDir";
         public const string InformationLogDir = "InformationLogDir";
         public const string ErrorLogDir = "ErrorLogDir";
+        public const string HostingURL = "HostingURL";
     }
 }

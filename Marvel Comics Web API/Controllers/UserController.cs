@@ -54,11 +54,19 @@ namespace Marvel_Comics_Web_API.Controllers
                                 login.UserID = int.Parse(row["UserID"].ToString());
                                 login.Email = row["Email"].ToString();
                                 login.UserName = row["UserName"].ToString();
-                                login.FirstName = row["MemberName"].ToString();
+                                login.FirstName = row["FirstName"].ToString();
                                 login.LastName = row["LastName"].ToString();
                                 login.IsActive = bool.Parse(row["IsActive"].ToString());
                                 login.MobileNo = row["MobileNo"].ToString();
                                 login.Gender = row["Gender"].ToString();
+                                login.Country = row["Country"].ToString();
+                                login.RoleID = int.Parse(row["RoleID"].ToString());
+                                login.StatusID = int.Parse(row["StatusID"].ToString());
+                                login.Role = row["Role"].ToString();
+                                login.Status = row["Status"].ToString();
+                                login.ImageUrl = CommonObjects.GetCongifValue(ConfigKeys.HostingURL)  + row["ImageUrl"].ToString();
+                                DateTime dt = DateTime.Parse(row["DateOfBirth"].ToString());
+                                login.DateOfBirth = String.Format("{0:ddd, MMM d, yyyy}", dt);
                             }
                             res.ResponseCode = ResponseCodes.Success;
                             res.ResponseMessage = ResponseMessages.Success;

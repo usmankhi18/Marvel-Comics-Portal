@@ -1,0 +1,96 @@
+-------------------Function Open-------------6/16/2020 3:51:32 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  0
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Login Failed","ResponseData":{"LoginResp":{"UserID":0,"UserName":null,"FirstName":null,"LastName":null,"Gender":null,"Email":null,"IsActive":false,"MobileNo":null}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 3:51:33 PM
+-------------------Function Open-------------6/16/2020 3:52:07 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  0
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Login Failed","ResponseData":{"LoginResp":{"UserID":0,"UserName":null,"FirstName":null,"LastName":null,"Gender":null,"Email":null,"IsActive":false,"MobileNo":null}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 3:52:45 PM
+-------------------Function Open-------------6/16/2020 3:52:49 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+-------------------Function Open-------------6/16/2020 3:57:20 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+-------------------Function Open-------------6/16/2020 3:58:29 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"01","ResponseMessage":"Error occured while Login : Could not find stored procedure 'proc_GetLogin'.","ResponseData":null}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 3:58:29 PM
+-------------------Function Open-------------6/16/2020 4:33:21 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  0
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Login Failed","ResponseData":{"LoginResp":{"UserID":0,"UserName":null,"FirstName":null,"LastName":null,"Gender":null,"Email":null,"IsActive":false,"MobileNo":null,"DateOfBirth":null,"Country":null,"RoleID":0,"Role":null,"StatusID":0,"Status":null,"ImageUrl":null}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 4:33:21 PM
+-------------------Function Open-------------6/16/2020 4:33:49 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  0
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Login Failed","ResponseData":{"LoginResp":{"UserID":0,"UserName":null,"FirstName":null,"LastName":null,"Gender":null,"Email":null,"IsActive":false,"MobileNo":null,"DateOfBirth":null,"Country":null,"RoleID":0,"Role":null,"StatusID":0,"Status":null,"ImageUrl":null}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 4:38:11 PM
+-------------------Function Open-------------6/16/2020 4:38:12 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  0
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Login Failed","ResponseData":{"LoginResp":{"UserID":0,"UserName":null,"FirstName":null,"LastName":null,"Gender":null,"Email":null,"IsActive":false,"MobileNo":null,"DateOfBirth":null,"Country":null,"RoleID":0,"Role":null,"StatusID":0,"Status":null,"ImageUrl":null}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 4:38:12 PM
+-------------------Function Open-------------6/16/2020 4:38:17 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  0
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Login Failed","ResponseData":{"LoginResp":{"UserID":0,"UserName":null,"FirstName":null,"LastName":null,"Gender":null,"Email":null,"IsActive":false,"MobileNo":null,"DateOfBirth":null,"Country":null,"RoleID":0,"Role":null,"StatusID":0,"Status":null,"ImageUrl":null}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 4:39:57 PM
+-------------------Function Open-------------6/16/2020 4:40:03 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  0
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Login Failed","ResponseData":{"LoginResp":{"UserID":0,"UserName":null,"FirstName":null,"LastName":null,"Gender":null,"Email":null,"IsActive":false,"MobileNo":null,"DateOfBirth":null,"Country":null,"RoleID":0,"Role":null,"StatusID":0,"Status":null,"ImageUrl":null}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 4:40:03 PM
+-------------------Function Open-------------6/16/2020 4:41:29 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  1
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"01","ResponseMessage":"Column 'MemberName' does not belong to table .","ResponseData":null}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 4:41:29 PM
+-------------------Function Open-------------6/16/2020 4:41:56 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  1
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Success","ResponseData":{"LoginResp":{"UserID":1,"UserName":"admin","FirstName":"Usman","LastName":"Khan","Gender":"Male","Email":"usman.khi18@hotmail.com","IsActive":true,"MobileNo":"03363302274","DateOfBirth":"Mon, Aug 30, 1993","Country":"Pakistan","RoleID":1,"Role":"admin","StatusID":2,"Status":"Approved","ImageUrl":"http://localhost:44316/user/1.png"}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 4:41:56 PM

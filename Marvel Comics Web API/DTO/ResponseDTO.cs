@@ -27,5 +27,12 @@ namespace Marvel_Comics_Web_API.DTO
         public string Email { get; set; }
         public bool IsActive { get; set; }
         public string MobileNo { get; set; }
+        public string DateOfBirth { get; set; }
+        public string Country { get; set; }
+        public int RoleID { get; set; }
+        public string Role { get; set; }
+        public int StatusID { get; set; }
+        public string Status { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

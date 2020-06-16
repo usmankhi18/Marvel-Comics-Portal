@@ -44,7 +44,7 @@ namespace BLL
             DataTable dtRecord = new DataTable();
             try
             {
-                using (SqlCommand sqlComm = new SqlCommand("proc_MemberChangePassword"))
+                using (SqlCommand sqlComm = new SqlCommand("proc_ChangePassword"))
                 {
                     sqlComm.CommandType = CommandType.StoredProcedure;
                     sqlComm.Parameters.AddWithValue("@UserID", int.Parse(credentials.UserName));
