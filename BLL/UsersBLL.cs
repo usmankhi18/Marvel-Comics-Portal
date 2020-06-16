@@ -6,8 +6,6 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using USC.Utilities;
 
 namespace BLL
 {
@@ -38,9 +36,10 @@ namespace BLL
             return dtRecord;
         }
 
-        public void ChangePassword(MarvelBLL objMarvelBLL, APICredentialsBLL credentials)
+        public bool ChangePassword(MarvelBLL objMarvelBLL, APICredentialsBLL credentials)
         {
             string funcName = "ChangePassword";
+            bool isReset = false;
             Logger.Logger.Information(clsName, funcName);
             DataTable dtRecord = new DataTable();
             try
@@ -52,6 +51,10 @@ namespace BLL
                     sqlComm.Parameters.AddWithValue("@Password", MD5.CreateMd5Hash(credentials.Password));
                     dtRecord = objMarvelBLL.GetData(sqlComm);
                     Logger.Logger.Information(clsName, funcName, "dtRecord.Rows.Count", dtRecord.Rows.Count.ToString());
+                    if (dtRecord.Rows.Count > 0)
+                    {
+                        isReset = true;
+                    }
                 }
             }
             catch (Exception ex)
@@ -59,6 +62,8 @@ namespace BLL
                 Logger.Logger.WriteErrorLog(clsName, funcName, ex);
                 throw new Exception(string.Format("Error occured while Change Password : {0}", ex.Message), ex);
             }
+            Logger.Logger.Information(clsName, funcName, "isReset", isReset.ToString());
+            return isReset;
         }
 
         public bool CheckPassword(MarvelBLL objMarvelBLL, APICredentialsBLL credentials)
