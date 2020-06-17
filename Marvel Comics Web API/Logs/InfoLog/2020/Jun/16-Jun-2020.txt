@@ -94,3 +94,12 @@ ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Row
 ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Success","ResponseData":{"LoginResp":{"UserID":1,"UserName":"admin","FirstName":"Usman","LastName":"Khan","Gender":"Male","Email":"usman.khi18@hotmail.com","IsActive":true,"MobileNo":"03363302274","DateOfBirth":"Mon, Aug 30, 1993","Country":"Pakistan","RoleID":1,"Role":"admin","StatusID":2,"Status":"Approved","ImageUrl":"http://localhost:44316/user/1.png"}}}
 ClassName : UserController MethodName GetMemberLogin
 -------------------Function Close-------------6/16/2020 4:41:56 PM
+-------------------Function Open-------------6/16/2020 4:44:05 PM
+ClassName : UserController MethodName GetMemberLogin Parameters :   request  {"APICredentials":{"APIUserName":"admin","APIPassword":"admin123"},"Email":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   objAPICredentials  {"UserName":"admin","Password":"admin123"}
+ClassName : CommonMethods MethodName ValidateRequest Information Parameters :   IsValidate  True
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   UserName  admin
+ClassName : UsersBLL MethodName GetLogin Information Parameters :   dtRecord.Rows.Count  1
+ClassName : UserController MethodName GetMemberLogin Information Parameters :   Response  {"ResponseCode":"00","ResponseMessage":"Success","ResponseData":{"LoginResp":{"UserID":1,"UserName":"admin","FirstName":"Usman","LastName":"Khan","Gender":"Male","Email":"usman.khi18@hotmail.com","IsActive":true,"MobileNo":"03363302274","DateOfBirth":"Mon, Aug 30, 1993","Country":"Pakistan","RoleID":1,"Role":"admin","StatusID":2,"Status":"Approved","ImageUrl":"http://localhost:44316/user/1.png"}}}
+ClassName : UserController MethodName GetMemberLogin
+-------------------Function Close-------------6/16/2020 4:44:05 PM

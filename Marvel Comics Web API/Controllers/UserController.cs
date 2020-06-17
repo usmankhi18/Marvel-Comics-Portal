@@ -64,6 +64,7 @@ namespace Marvel_Comics_Web_API.Controllers
                                 login.StatusID = int.Parse(row["StatusID"].ToString());
                                 login.Role = row["Role"].ToString();
                                 login.Status = row["Status"].ToString();
+                                login.CNIC = row["CNIC"].ToString();
                                 login.ImageUrl = CommonObjects.GetCongifValue(ConfigKeys.HostingURL)  + row["ImageUrl"].ToString();
                                 DateTime dt = DateTime.Parse(row["DateOfBirth"].ToString());
                                 login.DateOfBirth = String.Format("{0:ddd, MMM d, yyyy}", dt);

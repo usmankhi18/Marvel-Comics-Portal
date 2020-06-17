@@ -34,5 +34,6 @@ namespace Marvel_Comics_Web_API.DTO
         public int StatusID { get; set; }
         public string Status { get; set; }
         public string ImageUrl { get; set; }
+        public string CNIC { get; set; }
     }
 }
